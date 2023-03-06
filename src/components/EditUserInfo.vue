@@ -60,6 +60,7 @@
         </v-col>
       </v-row>
     </v-form>
+    <v-divider class="my-5"/>
     <div class="w-100 d-flex justify-space-between py-3">
       <div class="d-flex align-center">
         <div class="text-gray">

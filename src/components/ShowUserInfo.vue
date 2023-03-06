@@ -10,6 +10,7 @@
         `${$store.getters["userData/getFirstName"]} ${$store.getters["userData/getLastName"]}`
       }}</span>
     </div>
+    <v-divider class="my-3"/>
     <div class="d-flex align-center mt-5">
       <div class="text-gray">
         <v-icon color="#5d5d5d" size="30">mdi-account-circle-outline</v-icon>
@@ -17,6 +18,7 @@
       </div>
       <span class="mr-2">{{ $store.getters["userData/getUserName"] }}</span>
     </div>
+    <v-divider class="my-3"/>
     <div class="d-flex align-center mt-5">
       <div class="text-gray">
         <v-icon color="#5d5d5d" size="30">mdi-update</v-icon>
@@ -26,6 +28,7 @@
         $store.getters["userData/getRegisteryDate"]
       }}</span>
     </div>
+    <v-divider class="my-3"/>
     <div class="d-flex align-center mt-5">
       <div class="text-gray">
         <v-icon color="#5d5d5d" size="30">mdi-email-outline</v-icon>
