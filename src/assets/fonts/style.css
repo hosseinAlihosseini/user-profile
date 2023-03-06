@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "Estedad_Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Estedad-Regular.ttf"),
+    url("./Estedad-Regular.ttf") format("truetype");
+}

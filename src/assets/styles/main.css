@@ -1,0 +1,15 @@
+@import "./../fonts/style.css";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  direction: rtl;
+  font-family: "Estedad_Regular";
+}
+
+.text-gray {
+  color: #5d5d5d;
+}
