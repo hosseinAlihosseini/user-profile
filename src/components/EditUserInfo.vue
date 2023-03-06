@@ -77,15 +77,13 @@
         @changeEmailSuccess="changeEmailHandler"
       />
     </v-dialog>
-    <v-snackbar v-model="snackbar">
-      <div class="py-3 text-center">
+    <v-snackbar v-model="snackbar" location="top" color="green">
+      <div class="py-3 text-center d-flex align-center justify-center flex-row-reverse">
         {{ messageText }}
-      </div>
-      <template v-slot:actions>
-        <v-btn color="pink" variant="text" @click="snackbar = false">
+        <v-btn color="pink" variant="text" @click="snackbar = false" class="mr-2">
           بستن
         </v-btn>
-      </template>
+      </div>
     </v-snackbar>
   </div>
 </template>

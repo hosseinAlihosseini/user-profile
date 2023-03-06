@@ -46,13 +46,13 @@
         </div>
       </div>
     </v-container>
-    <v-snackbar v-model="snackbar">
-      <div class="py-3 text-center">عکس پروفایل با موفقیت تغییر یافت</div>
-      <template v-slot:actions>
-        <v-btn color="pink" variant="text" @click="snackbar = false">
+    <v-snackbar v-model="snackbar" location="top" color="green">
+      <div class="py-3 text-center d-flex align-center justify-center flex-row-reverse">
+        عکس پروفایل با موفقیت تغییر یافت.
+        <v-btn color="pink" variant="text" @click="snackbar = false" class="mr-2">
           بستن
         </v-btn>
-      </template>
+      </div>
     </v-snackbar>
   </div>
 </template>
